@@ -1,0 +1,9 @@
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Cmd.exe.config
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Cmd.exe
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Cmd.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\EntityFramework.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\EntityFramework.SqlServer.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\EntityFramework.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\EntityFramework.SqlServer.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.exe
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.pdb
