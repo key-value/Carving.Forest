@@ -6,6 +6,6 @@ namespace Carving.Application
 {
     public interface IScanCodeServices
     {
-        
+        int ScanCode();
     }
 }

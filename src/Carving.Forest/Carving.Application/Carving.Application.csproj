@@ -39,9 +39,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\IScanCodeServices.cs" />
+    <Compile Include="Interface\Qrcode\IScanCodeServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScanCodeServices.cs" />
+    <Compile Include="Services\Qrcode\ScanCodeServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carving.Domain.Core\Carving.Domain.Core.csproj">
+      <Project>{F7B6A6CC-67A6-426B-BADD-6B9DBC2AE1A6}</Project>
+      <Name>Carving.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.Domain.Model\Carving.Domain.Model.csproj">
+      <Project>{06628ADE-D460-439D-8D6A-F556C6AB4DCB}</Project>
+      <Name>Carving.Domain.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.Domain.Repository.EF\Carving.Domain.Repository.EF.csproj">
+      <Project>{856AA88A-2D9C-44B6-B26B-62A30CEF34FD}</Project>
+      <Name>Carving.Domain.Repository.EF</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

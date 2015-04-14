@@ -11,7 +11,8 @@ namespace Carving.Domain.Repository.EF.Migrations.Default
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
             MigrationsDirectory = @"Migrations\Default";
         }
 

@@ -19,7 +19,7 @@ namespace Carving.Infrastructrue.Autofac
         private ServiceLocator()
         {
             var builder = new ContainerBuilder();
-            var assemblylist = Assembly.GetExecutingAssembly();
+            var assemblylist = Assembly.GetEntryAssembly();
             builder.RegisterAssemblyTypes(assemblylist).
                 AsImplementedInterfaces();
             _container = builder.Build();
@@ -31,7 +31,11 @@ namespace Carving.Infrastructrue.Autofac
         /// </summary>
         public static ServiceLocator Instance
         {
-            get { return instance; }
+
+            get
+            {
+                return instance;
+            }
         }
         #endregion
 

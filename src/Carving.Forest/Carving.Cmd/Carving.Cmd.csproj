@@ -55,6 +55,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carving.Application\Carving.Application.csproj">
+      <Project>{72CB6F39-36FA-401F-91BE-707487F3A9AC}</Project>
+      <Name>Carving.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.Infrastructrue\Carving.Infrastructrue.csproj">
+      <Project>{457FB26E-BAFB-4512-8BFE-2F58F790EA47}</Project>
+      <Name>Carving.Infrastructrue</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

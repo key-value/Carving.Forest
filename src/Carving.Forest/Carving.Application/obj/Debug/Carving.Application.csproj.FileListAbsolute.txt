@@ -7,3 +7,16 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carvi
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Application.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.csprojResolveAssemblyReference.cache
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Domain.Core.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Domain.Model.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Domain.Repository.EF.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Infrastructrue.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\EntityFramework.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Autofac.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Domain.Core.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Domain.Model.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Domain.Repository.EF.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\EntityFramework.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Autofac.xml

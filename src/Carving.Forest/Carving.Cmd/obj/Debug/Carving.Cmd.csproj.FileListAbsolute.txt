@@ -7,3 +7,16 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\EntityFramewo
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\EntityFramework.SqlServer.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.exe
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Application.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Infrastructrue.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Repository.EF.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Model.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Core.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Autofac.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Application.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Repository.EF.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Model.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Core.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Autofac.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.csprojResolveAssemblyReference.cache
