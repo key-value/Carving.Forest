@@ -1,0 +1,5 @@
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Model\bin\Debug\Carving.Domain.Model.dll
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Model\bin\Debug\Carving.Domain.Model.pdb
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Model\obj\Debug\Carving.Domain.Model.csprojResolveAssemblyReference.cache
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Model\obj\Debug\Carving.Domain.Model.dll
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Model\obj\Debug\Carving.Domain.Model.pdb

@@ -1,0 +1,4 @@
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Service\bin\Debug\Carving.Domain.Service.dll
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Service\bin\Debug\Carving.Domain.Service.pdb
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Service\obj\Debug\Carving.Domain.Service.dll
+F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Service\obj\Debug\Carving.Domain.Service.pdb
