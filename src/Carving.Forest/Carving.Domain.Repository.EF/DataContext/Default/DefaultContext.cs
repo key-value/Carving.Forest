@@ -1,10 +1,21 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.Infrastructure.Interception;
 using System.Reflection;
+using Carving.Domain.Repository.EF.Map;
 
 namespace Carving.Domain.Repository.EF.DataContext.Default
 {
     class DefaultContext : DbContext
     {
+        static DefaultContext()
+        {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DefaultContext, Migrations.Default.Configuration>());
+            //Database.SetInitializer<DefaultContext>(null);
+
+#if DEBUG
+            DbInterception.Add(new EFIntercepterLogging());
+#endif
+        }
         public DefaultContext()
             : base("DefaultConnection")
         {
@@ -30,8 +41,8 @@ namespace Carving.Domain.Repository.EF.DataContext.Default
         /// <param name="modelBuilder">The builder that defines the model for the context being created. </param>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Configurations.AddFromAssembly(Assembly.GetAssembly(typeof(MonitorRestaurantMap)));
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Configurations.AddFromAssembly(Assembly.GetAssembly(typeof(QrCodeMap)));
 
         }
 

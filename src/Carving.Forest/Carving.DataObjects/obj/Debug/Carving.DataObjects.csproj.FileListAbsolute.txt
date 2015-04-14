@@ -2,3 +2,7 @@ F:\SvnCode\Carving\Carving.Forest\Carving.DataObjects\bin\Debug\Carving.DataObje
 F:\SvnCode\Carving\Carving.Forest\Carving.DataObjects\bin\Debug\Carving.DataObjects.pdb
 F:\SvnCode\Carving\Carving.Forest\Carving.DataObjects\obj\Debug\Carving.DataObjects.dll
 F:\SvnCode\Carving\Carving.Forest\Carving.DataObjects\obj\Debug\Carving.DataObjects.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.DataObjects\bin\Debug\Carving.DataObjects.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.DataObjects\bin\Debug\Carving.DataObjects.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.DataObjects\obj\Debug\Carving.DataObjects.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.DataObjects\obj\Debug\Carving.DataObjects.pdb

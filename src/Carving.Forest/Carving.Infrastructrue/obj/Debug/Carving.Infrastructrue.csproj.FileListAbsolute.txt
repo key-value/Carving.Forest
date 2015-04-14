@@ -2,3 +2,9 @@ F:\SvnCode\Carving\Carving.Forest\Carving.Infrastructrue\bin\Debug\Carving.Infra
 F:\SvnCode\Carving\Carving.Forest\Carving.Infrastructrue\bin\Debug\Carving.Infrastructrue.pdb
 F:\SvnCode\Carving\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.dll
 F:\SvnCode\Carving\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Carving.Infrastructrue.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Autofac.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Autofac.xml

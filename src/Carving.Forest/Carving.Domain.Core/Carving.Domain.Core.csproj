@@ -39,7 +39,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\IAggregateRoot.cs" />
+    <Compile Include="Model\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\IRepositoryContext.cs" />
+    <Compile Include="Repositories\IUnitOfWork.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\RepositoryContext.cs" />
+    <Compile Include="Repositories\SortOrder.cs" />
+    <Compile Include="Specifications\AndNotSpecification.cs" />
+    <Compile Include="Specifications\AndSpecification.cs" />
+    <Compile Include="Specifications\AnySpecification.cs" />
+    <Compile Include="Specifications\CompositeSpecification.cs" />
+    <Compile Include="Specifications\ExpressionFuncExtender.cs" />
+    <Compile Include="Specifications\ExpressionSpecification.cs" />
+    <Compile Include="Specifications\ICompositeSpecification.cs" />
+    <Compile Include="Specifications\ISpecification.cs" />
+    <Compile Include="Specifications\ISpecificationParser.cs" />
+    <Compile Include="Specifications\NoneSpecification.cs" />
+    <Compile Include="Specifications\NotSpecification.cs" />
+    <Compile Include="Specifications\OrSpecification.cs" />
+    <Compile Include="Specifications\ParameterRebinder.cs" />
+    <Compile Include="Specifications\Specification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carving.Infrastructrue\Carving.Infrastructrue.csproj">
+      <Project>{457FB26E-BAFB-4512-8BFE-2F58F790EA47}</Project>
+      <Name>Carving.Infrastructrue</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

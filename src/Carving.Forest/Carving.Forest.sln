@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.DataObjects", "Carv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.Infrastructure.Caching", "Carving.Infrastructure.Caching\Carving.Infrastructure.Caching.csproj", "{4F350E0E-039D-4D2A-8B75-BF16EC456F37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.Cmd", "Carving.Cmd\Carving.Cmd.csproj", "{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{4F350E0E-039D-4D2A-8B75-BF16EC456F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F350E0E-039D-4D2A-8B75-BF16EC456F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F350E0E-039D-4D2A-8B75-BF16EC456F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +93,6 @@ Global
 		{457FB26E-BAFB-4512-8BFE-2F58F790EA47} = {258FB7B0-9C4C-4A2C-B074-FA0022BFEA2E}
 		{DB6BD813-8C28-482A-8DB9-3028958DEA53} = {C1DB95E0-9C2D-40FC-8AC7-6515CD7316CE}
 		{4F350E0E-039D-4D2A-8B75-BF16EC456F37} = {258FB7B0-9C4C-4A2C-B074-FA0022BFEA2E}
+		{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC} = {2E2F9D2A-55F4-4980-8795-ACDFC894C965}
 	EndGlobalSection
 EndGlobal

@@ -3,3 +3,7 @@ F:\SvnCode\Carving\Carving.Forest\Carving.Application\bin\Debug\Carving.Applicat
 F:\SvnCode\Carving\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.csprojResolveAssemblyReference.cache
 F:\SvnCode\Carving\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.dll
 F:\SvnCode\Carving\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Application.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\bin\Debug\Carving.Application.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Application\obj\Debug\Carving.Application.pdb

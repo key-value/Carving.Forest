@@ -3,3 +3,12 @@ F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Core\bin\Debug\Carving.Domain.C
 F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Core\obj\Debug\Carving.Domain.Core.csprojResolveAssemblyReference.cache
 F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Core\obj\Debug\Carving.Domain.Core.dll
 F:\SvnCode\Carving\Carving.Forest\Carving.Domain.Core\obj\Debug\Carving.Domain.Core.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Carving.Domain.Core.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Carving.Domain.Core.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\obj\Debug\Carving.Domain.Core.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\obj\Debug\Carving.Domain.Core.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\obj\Debug\Carving.Domain.Core.csprojResolveAssemblyReference.cache
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Carving.Infrastructrue.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Autofac.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Autofac.xml

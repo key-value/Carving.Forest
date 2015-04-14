@@ -39,8 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="餐桌\QrCode.cs" />
+    <Compile Include="餐桌\Table.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carving.Domain.Core\Carving.Domain.Core.csproj">
+      <Project>{F7B6A6CC-67A6-426B-BADD-6B9DBC2AE1A6}</Project>
+      <Name>Carving.Domain.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
