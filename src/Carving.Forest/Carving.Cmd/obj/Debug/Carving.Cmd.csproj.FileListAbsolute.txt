@@ -20,3 +20,9 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domai
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Domain.Core.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Autofac.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.csprojResolveAssemblyReference.cache
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Cmd.exe.manifest
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.Cmd.application
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.exe.manifest
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.application
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.DataObjects.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.DataObjects.pdb

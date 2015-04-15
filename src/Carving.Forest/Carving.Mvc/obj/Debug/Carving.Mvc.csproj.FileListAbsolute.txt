@@ -92,3 +92,16 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Web.
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\obj\Debug\Carving.Mvc.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\obj\Debug\Carving.Mvc.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Application.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Infrastructrue.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Repository.EF.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Model.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Core.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Autofac.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Application.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Infrastructrue.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Repository.EF.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Model.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Core.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Autofac.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\obj\Debug\Carving.Mvc.csprojResolveAssemblyReference.cache

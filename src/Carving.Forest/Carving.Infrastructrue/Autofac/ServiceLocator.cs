@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Web.Compilation;
 using Autofac;
 using Autofac.Builder;
 
@@ -19,9 +20,20 @@ namespace Carving.Infrastructrue.Autofac
         private ServiceLocator()
         {
             var builder = new ContainerBuilder();
-            var assemblylist = Assembly.GetEntryAssembly();
-            builder.RegisterAssemblyTypes(assemblylist).
-                AsImplementedInterfaces();
+            if (ConfigureUtility.ApplicationType)
+            {
+                var assemblylist = BuildManager.GetReferencedAssemblies().Cast<Assembly>().Where(x => x.FullName.StartsWith("Carving.Application") || x.FullName.StartsWith("Carving.Domain"));
+                builder.RegisterAssemblyTypes(assemblylist.ToArray()).PropertiesAutowired().
+                    AsImplementedInterfaces();
+            }
+            else
+            {
+                var assemblylist = AppDomain.CurrentDomain.GetAssemblies();
+                builder.RegisterAssemblyTypes(assemblylist.ToArray()).PropertiesAutowired().
+                    AsImplementedInterfaces();
+
+            }
+            //var assemblylist = BuildManager.GetReferencedAssemblies().Cast<Assembly>().ToList();AppDomain.CurrentDomain.GetAssemblies();
             _container = builder.Build();
         }
 

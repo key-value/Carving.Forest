@@ -56,6 +56,10 @@
       <Project>{856AA88A-2D9C-44B6-B26B-62A30CEF34FD}</Project>
       <Name>Carving.Domain.Repository.EF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Carving.Infrastructrue\Carving.Infrastructrue.csproj">
+      <Project>{457FB26E-BAFB-4512-8BFE-2F58F790EA47}</Project>
+      <Name>Carving.Infrastructrue</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -131,6 +131,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Channel\ChannelAreaRegistration.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -194,6 +195,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Areas\Channel\Views\Web.config" />
+    <None Include="Properties\PublishProfiles\carving.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -227,11 +229,20 @@
     <Folder Include="Areas\Channel\Controllers\" />
     <Folder Include="Areas\Channel\Models\" />
     <Folder Include="Areas\Channel\Views\Shared\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carving.Application\Carving.Application.csproj">
+      <Project>{72CB6F39-36FA-401F-91BE-707487F3A9AC}</Project>
+      <Name>Carving.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.Infrastructrue\Carving.Infrastructrue.csproj">
+      <Project>{457FB26E-BAFB-4512-8BFE-2F58F790EA47}</Project>
+      <Name>Carving.Infrastructrue</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

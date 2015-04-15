@@ -11,6 +11,8 @@ namespace Carving.Cmd
     {
         static void Main(string[] args)
         {
+
+
             var scanCodeServices = ServiceLocator.Instance.GetService<IScanCodeServices>();
             scanCodeServices.ScanCode();
         }

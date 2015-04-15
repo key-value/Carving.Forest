@@ -2,21 +2,27 @@
 using Carving.Domain.Core.Specifications;
 using Carving.Domain.Model;
 using Carving.Domain.Repository.EF;
+using Carving.Infrastructrue.Autofac;
 
 namespace Carving.Application
 {
     public class ScanCodeServices : IScanCodeServices
     {
-        private ITableRepository _tableRepository;
+        public ITableRepository TableRepository;
 
 
         public int ScanCode()
         {
-            if (_tableRepository == null)
+            if (TableRepository == null)
             {
+                TableRepository = ServiceLocator.Instance.GetService<ITableRepository>();
+                if (TableRepository == null)
+                {
+                    
+                }
                 return 0;
             }
-            _tableRepository.Find(Specification<Table>.Eval(x => x.Name == "xxx"));
+            TableRepository.Find(Specification<Table>.Eval(x => x.Name == "xxx"));
             return 1;
         }
     }
