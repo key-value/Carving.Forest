@@ -6,7 +6,7 @@
 using Carving.Domain.Core.Repositories;
 using Carving.Domain.Model;
 
-namespace Carving.Domain.Repository.EF
+namespace Carving.Domain.Repository.EF.Data
 {
     public interface ITableRepository:IRepository<Table>
     {

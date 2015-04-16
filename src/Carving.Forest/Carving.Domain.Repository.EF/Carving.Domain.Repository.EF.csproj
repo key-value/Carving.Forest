@@ -37,6 +37,7 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,7 +56,8 @@
     <Compile Include="Migrations\Default\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\BaseRepository.cs" />
-    <Compile Include="Repository\IBaseRepository.cs" />
+    <Compile Include="Repository\EntityFrameworkRepositoryContext.cs" />
+    <Compile Include="Repository\IEntityFrameworkRepositoryContext.cs" />
     <Compile Include="Repository\SortByExtension.cs" />
   </ItemGroup>
   <ItemGroup>

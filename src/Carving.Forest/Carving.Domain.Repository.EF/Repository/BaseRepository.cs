@@ -17,16 +17,16 @@ namespace Carving.Domain.Repository.EF.Repository
     public class BaseRepository<TAggregateRoot> : Repository<TAggregateRoot>
         where TAggregateRoot : class, IAggregateRoot
     {
-        private readonly IBaseRepository _baseContext;
+        private readonly IEntityFrameworkRepositoryContext _baseContext;
 
         public BaseRepository(IRepositoryContext context)
             : base(context)
         {
-            if (context is IBaseRepository)
-                _baseContext = context as IBaseRepository;
+            if (context is IEntityFrameworkRepositoryContext)
+                _baseContext = context as IEntityFrameworkRepositoryContext;
         }
 
-        protected IBaseRepository EFContext
+        protected IEntityFrameworkRepositoryContext EFContext
         {
             get { return _baseContext; }
         }
@@ -41,7 +41,7 @@ namespace Carving.Domain.Repository.EF.Repository
             if (lambda.Body.NodeType == ExpressionType.Convert)
             {
                 memberExpr =
-                    ((UnaryExpression) lambda.Body).Operand as MemberExpression;
+                    ((UnaryExpression)lambda.Body).Operand as MemberExpression;
             }
             else if (lambda.Body.NodeType == ExpressionType.MemberAccess)
             {
@@ -132,7 +132,7 @@ namespace Carving.Domain.Repository.EF.Repository
                             query.SortBy(sortPredicate)
                                 .Skip(skip)
                                 .Take(take)
-                                .GroupBy(p => new {Total = query.Count()})
+                                .GroupBy(p => new { Total = query.Count() })
                                 .FirstOrDefault();
                         if (pagedGroupAscending == null)
                             return null;
@@ -144,7 +144,7 @@ namespace Carving.Domain.Repository.EF.Repository
                             query.SortByDescending(sortPredicate)
                                 .Skip(skip)
                                 .Take(take)
-                                .GroupBy(p => new {Total = query.Count()})
+                                .GroupBy(p => new { Total = query.Count() })
                                 .FirstOrDefault();
                         if (pagedGroupDescending == null)
                             return null;
@@ -307,7 +307,7 @@ namespace Carving.Domain.Repository.EF.Repository
                             queryable.SortBy(sortPredicate)
                                 .Skip(skip)
                                 .Take(take)
-                                .GroupBy(p => new {Total = queryable.Count()})
+                                .GroupBy(p => new { Total = queryable.Count() })
                                 .FirstOrDefault();
                         if (pagedGroupAscending == null)
                             return null;
@@ -319,7 +319,7 @@ namespace Carving.Domain.Repository.EF.Repository
                             queryable.SortByDescending(sortPredicate)
                                 .Skip(skip)
                                 .Take(take)
-                                .GroupBy(p => new {Total = queryable.Count()})
+                                .GroupBy(p => new { Total = queryable.Count() })
                                 .FirstOrDefault();
                         if (pagedGroupDescending == null)
                             return null;
