@@ -6,3 +6,4 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Service\bin\Debug\Ca
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Service\bin\Debug\Carving.Domain.Service.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Service\obj\Debug\Carving.Domain.Service.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Service\obj\Debug\Carving.Domain.Service.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Service\obj\Debug\Carving.Domain.Service.csprojResolveAssemblyReference.cache

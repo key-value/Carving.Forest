@@ -15,7 +15,6 @@ namespace Carving.Cmd
     {
         static void Main(string[] args)
         {
-
             var builder = new ContainerBuilder();
             builder.RegisterType<EntityFrameworkRepositoryContext>().As<IRepositoryContext>().PropertiesAutowired();
             builder.RegisterType<TableRepository>().As<ITableRepository>().PropertiesAutowired();

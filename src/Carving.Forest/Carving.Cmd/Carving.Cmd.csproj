@@ -87,6 +87,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Carving.Cmd_TemporaryKey.pfx" />
+    <None Include="NLog.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

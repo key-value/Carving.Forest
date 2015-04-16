@@ -8,3 +8,6 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\obj\Debug\Ca
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Autofac.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Autofac.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\NLog.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\NLog.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.csprojResolveAssemblyReference.cache
