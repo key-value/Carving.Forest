@@ -70,14 +70,14 @@ namespace Carving.Domain.Repository.EF.Repository
 
         protected override TAggregateRoot DoGetByKey(Guid key)
         {
-            return _baseContext.Context.Set<TAggregateRoot>().Where(p => p.ID == key).First();
+            return _baseContext.Context.Set<TAggregateRoot>().First(p => p.ID == key);
         }
 
         protected override IEnumerable<TAggregateRoot> DoGetAll(ISpecification<TAggregateRoot> specification,
             Expression<Func<TAggregateRoot, dynamic>> sortPredicate, SortOrder sortOrder)
         {
             var results = DoFindAll(specification, sortPredicate, sortOrder);
-            if (results == null || results.Count() == 0)
+            if (results == null || !results.Any())
                 throw new ArgumentException("无法根据指定的查询条件找到所需的聚合根。");
             return results;
         }

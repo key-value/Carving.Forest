@@ -69,9 +69,7 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\WebGrease.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\EntityFramework.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\EntityFramework.SqlServer.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Newtonsoft.Json.xml
-F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Net.Http.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Net.Http.Formatting.xml
-F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Net.Http.WebRequest.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.Http.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.Http.WebHost.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.Mvc.xml
@@ -79,9 +77,7 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.Razor.xm
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.WebPages.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.WebPages.Deployment.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\System.Web.WebPages.Razor.xml
-F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Net.Http.resources.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
-F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Web.Http.resources.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\zh-Hans\System.Web.Mvc.resources.dll
