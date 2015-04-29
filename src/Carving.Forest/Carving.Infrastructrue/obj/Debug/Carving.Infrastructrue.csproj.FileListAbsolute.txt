@@ -10,4 +10,3 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Au
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\Autofac.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\NLog.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\bin\Debug\NLog.xml
-F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructrue\obj\Debug\Carving.Infrastructrue.csprojResolveAssemblyReference.cache

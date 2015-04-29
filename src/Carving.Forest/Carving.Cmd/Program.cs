@@ -15,15 +15,8 @@ namespace Carving.Cmd
     {
         static void Main(string[] args)
         {
-            var builder = new ContainerBuilder();
-            builder.RegisterType<EntityFrameworkRepositoryContext>().As<IRepositoryContext>().PropertiesAutowired();
-            builder.RegisterType<TableRepository>().As<ITableRepository>().PropertiesAutowired();
-            builder.RegisterType<ScanCodeServices>().As<IScanCodeServices>().PropertiesAutowired();
-
-            IContainer container = builder.Build();
-
-            var scanCodeServices = ServiceLocator.Instance.GetService<IScanCodeServices>();
-            scanCodeServices.ScanCode();
+            var addQrCodeServices = ServiceLocator.Instance.GetService<IAddQrCodeServices>();
+            addQrCodeServices.Create("xxxfddfd", Guid.NewGuid());
         }
     }
 }

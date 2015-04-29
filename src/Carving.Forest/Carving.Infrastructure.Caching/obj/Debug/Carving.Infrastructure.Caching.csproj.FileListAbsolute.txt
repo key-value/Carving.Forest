@@ -6,4 +6,3 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructure.Caching\bin\
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructure.Caching\bin\Debug\Carving.Infrastructure.Caching.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructure.Caching\obj\Debug\Carving.Infrastructure.Caching.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructure.Caching\obj\Debug\Carving.Infrastructure.Caching.pdb
-F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Infrastructure.Caching\obj\Debug\Carving.Infrastructure.Caching.csprojResolveAssemblyReference.cache

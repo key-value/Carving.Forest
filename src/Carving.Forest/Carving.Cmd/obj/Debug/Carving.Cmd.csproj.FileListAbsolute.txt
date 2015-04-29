@@ -26,3 +26,5 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.e
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\obj\Debug\Carving.Cmd.application
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.DataObjects.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\Carving.DataObjects.pdb
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\NLog.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Cmd\bin\Debug\NLog.xml

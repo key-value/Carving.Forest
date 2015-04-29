@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\Qrcode\IAddQrCodeServices.cs" />
     <Compile Include="Interface\Qrcode\IScanCodeServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ApplicationServices.cs" />
+    <Compile Include="Services\Qrcode\AddQrCodeServices.cs" />
     <Compile Include="Services\Qrcode\ScanCodeServices.cs" />
   </ItemGroup>
   <ItemGroup>

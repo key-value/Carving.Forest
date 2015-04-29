@@ -101,3 +101,5 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Mode
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Carving.Domain.Core.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\Autofac.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\obj\Debug\Carving.Mvc.csprojResolveAssemblyReference.cache
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\NLog.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Mvc\bin\NLog.xml

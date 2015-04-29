@@ -14,3 +14,5 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Model\bin\Debug\Carv
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Model\bin\Debug\Carving.Infrastructrue.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Model\bin\Debug\Autofac.xml
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Model\obj\Debug\Carving.Domain.Model.csprojResolveAssemblyReference.cache
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Model\bin\Debug\NLog.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Model\bin\Debug\NLog.xml

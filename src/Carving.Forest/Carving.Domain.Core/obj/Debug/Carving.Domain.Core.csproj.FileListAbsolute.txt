@@ -12,3 +12,5 @@ F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Carvi
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Autofac.dll
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Carving.Infrastructrue.pdb
 F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\Autofac.xml
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\NLog.dll
+F:\SvnCode\Carving.Forest\src\Carving.Forest\Carving.Domain.Core\bin\Debug\NLog.xml

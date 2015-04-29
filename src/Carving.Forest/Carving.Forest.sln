@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Test", "6.Test", "{1CE938
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.Test", "Carving.Test\Carving.Test.csproj", "{7AE3018E-ED23-4430-9193-71823860DAB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.DomainEvents", "Carving.DomainEvents\Carving.DomainEvents.csproj", "{A63925AE-8DA6-4489-A129-9C136014FFBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7AE3018E-ED23-4430-9193-71823860DAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AE3018E-ED23-4430-9193-71823860DAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AE3018E-ED23-4430-9193-71823860DAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63925AE-8DA6-4489-A129-9C136014FFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63925AE-8DA6-4489-A129-9C136014FFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63925AE-8DA6-4489-A129-9C136014FFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63925AE-8DA6-4489-A129-9C136014FFBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,5 +109,6 @@ Global
 		{4F350E0E-039D-4D2A-8B75-BF16EC456F37} = {258FB7B0-9C4C-4A2C-B074-FA0022BFEA2E}
 		{4FC8E53C-47CD-42E6-999A-EA4CF901FBDC} = {2E2F9D2A-55F4-4980-8795-ACDFC894C965}
 		{7AE3018E-ED23-4430-9193-71823860DAB5} = {1CE93830-9C2C-4B51-8053-A0C39A471B6D}
+		{A63925AE-8DA6-4489-A129-9C136014FFBA} = {91B6226F-3606-4D71-9711-5B1F1DB5EC6F}
 	EndGlobalSection
 EndGlobal

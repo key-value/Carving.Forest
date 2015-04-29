@@ -55,6 +55,7 @@
     <Compile Include="Aop\Attribute\InjectionAttribute.cs" />
     <Compile Include="ConfigureUtility.cs" />
     <Compile Include="DisposableObject.cs" />
+    <Compile Include="Logging\Log.cs" />
     <Compile Include="PagedResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

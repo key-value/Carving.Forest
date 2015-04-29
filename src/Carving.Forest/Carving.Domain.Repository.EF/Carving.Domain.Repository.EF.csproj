@@ -51,7 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext\Default\DefaultContext.cs" />
+    <Compile Include="Data\餐桌\IQrCodeRepository.cs" />
     <Compile Include="Data\餐桌\ITableRepository.cs" />
+    <Compile Include="Data\餐桌\QrCodeRepository.cs" />
     <Compile Include="Data\餐桌\TableRepository.cs" />
     <Compile Include="EFIntercepterLogging.cs" />
     <Compile Include="Map\餐桌\QrCodeMap.cs" />
