@@ -12,6 +12,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.Application", "Carving.Application\Carving.Application.csproj", "{72CB6F39-36FA-401F-91BE-707487F3A9AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{91B6226F-3606-4D71-9711-5B1F1DB5EC6F}"
+	ProjectSection(SolutionItems) = preProject
+		Carving.Cmd\NLog.config = Carving.Cmd\NLog.config
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carving.Domain.Model", "Carving.Domain.Model\Carving.Domain.Model.csproj", "{06628ADE-D460-439D-8D6A-F556C6AB4DCB}"
 EndProject
