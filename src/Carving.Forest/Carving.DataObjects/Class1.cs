@@ -8,5 +8,6 @@ namespace Carving.DataObjects
 {
     class Class1
     {
+        public List<int> a = new List<int>();
     }
 }
