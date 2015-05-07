@@ -80,6 +80,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Carving.Infrastructrue\Excel\ExcelReader.cs" />
+    <Compile Include="Carving.Infrastructrue\Http\HttpSenderTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -122,6 +124,7 @@
       <Name>Carving.Infrastructrue</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

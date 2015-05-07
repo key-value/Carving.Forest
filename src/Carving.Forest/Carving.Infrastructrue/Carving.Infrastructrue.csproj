@@ -42,8 +42,26 @@
     <Reference Include="Castle.Core">
       <HintPath>..\packages\Castle.Core.3.2.2\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
+    <Reference Include="LinqToExcel">
+      <HintPath>..\packages\LinqToExcel.1.10.1\lib\LinqToExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>..\packages\LitJson.0.7.0\lib\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="NLog">
       <HintPath>..\packages\NLog.3.2.0.0\lib\net40\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion">
+      <HintPath>..\packages\LinqToExcel.1.10.1\lib\Remotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq">
+      <HintPath>..\packages\LinqToExcel.1.10.1\lib\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Interfaces">
+      <HintPath>..\packages\LinqToExcel.1.10.1\lib\Remotion.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -63,6 +81,8 @@
     <Compile Include="Aop\Interception\CallLogger.cs" />
     <Compile Include="ConfigureUtility.cs" />
     <Compile Include="DisposableObject.cs" />
+    <Compile Include="Excel\ExcelReader.cs" />
+    <Compile Include="Http\HttpSender.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Logging\Log.cs" />
     <Compile Include="PagedResult.cs" />
