@@ -51,8 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext\Default\DefaultContext.cs" />
-    <Compile Include="Data\餐桌\IQrCodeRepository.cs" />
-    <Compile Include="Data\餐桌\ITableRepository.cs" />
     <Compile Include="Data\餐桌\QrCodeRepository.cs" />
     <Compile Include="Data\餐桌\TableRepository.cs" />
     <Compile Include="EFIntercepterLogging.cs" />
@@ -74,6 +72,10 @@
     <ProjectReference Include="..\Carving.Domain.Core\Carving.Domain.Core.csproj">
       <Project>{F7B6A6CC-67A6-426B-BADD-6B9DBC2AE1A6}</Project>
       <Name>Carving.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.Domain.IRepository\Carving.Domain.IRepository.csproj">
+      <Project>{C6A3A8CE-1F11-40FD-8F8D-0888A336A69C}</Project>
+      <Name>Carving.Domain.IRepository</Name>
     </ProjectReference>
     <ProjectReference Include="..\Carving.Domain.Model\Carving.Domain.Model.csproj">
       <Project>{06628ADE-D460-439D-8D6A-F556C6AB4DCB}</Project>

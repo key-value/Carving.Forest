@@ -6,7 +6,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace Carving.DomainEvents
+
+namespace Carving.Domain.Events
 {
     public interface IEventAggregator
     {

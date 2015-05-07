@@ -9,7 +9,8 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Carving.DomainEvents
+
+namespace Carving.Domain.Events
 {
     public class EventAggregator : IEventAggregator
     {

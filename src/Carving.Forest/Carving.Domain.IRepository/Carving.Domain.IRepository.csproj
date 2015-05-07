@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7B6A6CC-67A6-426B-BADD-6B9DBC2AE1A6}</ProjectGuid>
+    <ProjectGuid>{C6A3A8CE-1F11-40FD-8F8D-0888A336A69C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Carving.Domain.Core</RootNamespace>
-    <AssemblyName>Carving.Domain.Core</AssemblyName>
+    <RootNamespace>Carving.Domain.IRepository</RootNamespace>
+    <AssemblyName>Carving.Domain.IRepository</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,36 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\IAggregateRoot.cs" />
-    <Compile Include="Model\IEntity.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
-    <Compile Include="Repositories\IRepositoryContext.cs" />
-    <Compile Include="Repositories\Repository.cs" />
-    <Compile Include="Repositories\RepositoryContext.cs" />
-    <Compile Include="Repositories\SortOrder.cs" />
-    <Compile Include="Specifications\AndNotSpecification.cs" />
-    <Compile Include="Specifications\AndSpecification.cs" />
-    <Compile Include="Specifications\AnySpecification.cs" />
-    <Compile Include="Specifications\CompositeSpecification.cs" />
-    <Compile Include="Specifications\ExpressionFuncExtender.cs" />
-    <Compile Include="Specifications\ExpressionSpecification.cs" />
-    <Compile Include="Specifications\ICompositeSpecification.cs" />
-    <Compile Include="Specifications\ISpecification.cs" />
-    <Compile Include="Specifications\ISpecificationParser.cs" />
-    <Compile Include="Specifications\NoneSpecification.cs" />
-    <Compile Include="Specifications\NotSpecification.cs" />
-    <Compile Include="Specifications\OrSpecification.cs" />
-    <Compile Include="Specifications\ParameterRebinder.cs" />
-    <Compile Include="Specifications\Specification.cs" />
+    <Compile Include="餐桌\IQrCodeRepository.cs" />
+    <Compile Include="餐桌\ITableRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Carving.Infrastructrue\Carving.Infrastructrue.csproj">
-      <Project>{457FB26E-BAFB-4512-8BFE-2F58F790EA47}</Project>
-      <Name>Carving.Infrastructrue</Name>
+    <ProjectReference Include="..\Carving.Domain.Core\Carving.Domain.Core.csproj">
+      <Project>{f7b6a6cc-67a6-426b-badd-6b9dbc2ae1a6}</Project>
+      <Name>Carving.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.Domain.Model\Carving.Domain.Model.csproj">
+      <Project>{06628ade-d460-439d-8d6a-f556c6ab4dcb}</Project>
+      <Name>Carving.Domain.Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -5,7 +5,8 @@
 
 using System;
 
-namespace Carving.DomainEvents
+
+namespace Carving.Domain.Events
 {
     /// <summary>
     /// 表示代理给定的领域事件处理委托的领域事件处理器。

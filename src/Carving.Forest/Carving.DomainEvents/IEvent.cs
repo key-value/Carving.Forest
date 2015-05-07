@@ -5,7 +5,8 @@
 
 using System;
 
-namespace Carving.DomainEvents
+
+namespace Carving.Domain.Events
 {
     public interface IEvent
     {

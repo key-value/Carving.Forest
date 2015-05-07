@@ -1,8 +1,17 @@
 ﻿// Carving.Domain.Core DomainEvent.cs
 // writer sundy
-// Last Update Time 2015-04-29-21:48
-// Create Time 2015-04-29-21:48
-namespace Carving.Domain.Core.Event
+// Last Update Time 2015-05-06-21:17
+// Create Time 2015-05-04-14:44
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Carving.Domain.Core;
+using Carving.Domain.Core.Event;
+using Carving.Infrastructrue.Autofac;
+
+namespace Carving.Domain.Events
 {
     /// <summary>
     /// 表示继承于该类的类型为领域事件。
@@ -99,5 +108,6 @@ namespace Carving.Domain.Core.Event
                 callback(domainEvent, false, null);
         }
         #endregion
+
     }
 }

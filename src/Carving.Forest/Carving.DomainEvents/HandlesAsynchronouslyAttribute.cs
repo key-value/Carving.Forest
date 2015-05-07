@@ -5,7 +5,8 @@
 
 using System;
 
-namespace Carving.DomainEvents
+
+namespace Carving.Domain.Events
 {
     /// <summary>
     /// Represents that the event handlers applied with this attribute

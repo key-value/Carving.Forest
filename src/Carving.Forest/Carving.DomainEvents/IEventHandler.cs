@@ -2,7 +2,8 @@
 // writer sundy
 // Last Update Time 2015-04-29-21:38
 // Create Time 2015-04-29-21:38
-namespace Carving.DomainEvents
+
+namespace Carving.Domain.Events
 {
     /// <summary>
     /// 表示实现该接口的类型为事件处理器。

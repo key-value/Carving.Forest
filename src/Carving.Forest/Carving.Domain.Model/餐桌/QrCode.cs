@@ -4,6 +4,9 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using Carving.Domain.Core;
+using Carving.Domain.Core.Event;
+using Carving.Domain.Events;
+using Carving.Domain.Events.Handlers;
 
 namespace Carving.Domain.Model
 {
@@ -14,5 +17,20 @@ namespace Carving.Domain.Model
         public string Code { get; set; }
 
         public Guid TableID { get; set; }
+
+
+        public Table GetTable
+        {
+            get
+            {
+                Table result = null;
+                DomainEvent.Publish<GetQrCodeTableEvent>(new GetQrCodeTableEvent(this),
+                    (e, ret, exc) =>
+                    {
+                        result = e.Table;
+                    });
+                return result;
+            }
+        }
     }
 }

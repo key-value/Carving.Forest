@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handlers\GetQrCodeTableEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="餐桌\QrCode.cs" />
     <Compile Include="餐桌\Table.cs" />
@@ -50,6 +51,10 @@
     <ProjectReference Include="..\Carving.Domain.Core\Carving.Domain.Core.csproj">
       <Project>{F7B6A6CC-67A6-426B-BADD-6B9DBC2AE1A6}</Project>
       <Name>Carving.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carving.DomainEvents\Carving.Domain.Events.csproj">
+      <Project>{a63925ae-8da6-4489-a129-9c136014ffba}</Project>
+      <Name>Carving.Domain.Events</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

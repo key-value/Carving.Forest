@@ -10,10 +10,10 @@ using System.Reflection;
 using System.Threading;
 using Carving.Infrastructrue;
 
-namespace Carving.DomainEvents.Bus
+namespace Carving.Domain.Events.Bus
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public class EventBus : DisposableObject, IEventBus
     {

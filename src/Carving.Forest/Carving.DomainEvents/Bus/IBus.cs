@@ -7,7 +7,8 @@ using System;
 using System.Collections.Generic;
 using Carving.Domain.Core.Repositories;
 
-namespace Carving.DomainEvents.Bus
+
+namespace Carving.Domain.Events.Bus
 {
     /// <summary>
     /// Represents the message bus.

@@ -55,13 +55,13 @@
       <Project>{F7B6A6CC-67A6-426B-BADD-6B9DBC2AE1A6}</Project>
       <Name>Carving.Domain.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Carving.Domain.IRepository\Carving.Domain.IRepository.csproj">
+      <Project>{C6A3A8CE-1F11-40FD-8F8D-0888A336A69C}</Project>
+      <Name>Carving.Domain.IRepository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Carving.Domain.Model\Carving.Domain.Model.csproj">
       <Project>{06628ADE-D460-439D-8D6A-F556C6AB4DCB}</Project>
       <Name>Carving.Domain.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Carving.Domain.Repository.EF\Carving.Domain.Repository.EF.csproj">
-      <Project>{856AA88A-2D9C-44B6-B26B-62A30CEF34FD}</Project>
-      <Name>Carving.Domain.Repository.EF</Name>
     </ProjectReference>
     <ProjectReference Include="..\Carving.Infrastructrue\Carving.Infrastructrue.csproj">
       <Project>{457FB26E-BAFB-4512-8BFE-2F58F790EA47}</Project>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace Carving.Infrastructrue.Autofac
         {
             var builder = new ContainerBuilder();
 
-            var nameSpaces = new List<string>() { "Carving.Application", "Carving.Domain.Repository.EF", "Carving.Domain.Core" };
+            var nameSpaces = new List<string>() { "Carving.Application", "Carving.Domain.Repository.EF", "Carving.Domain.Core", "Carving.Domain.Events.Handles" };
 
             foreach (var nameSpace in nameSpaces)
             {
@@ -74,6 +75,11 @@ namespace Carving.Infrastructrue.Autofac
         public T GetService<T>()
         {
             return _container.Resolve<T>();
+        }
+
+        public IEnumerable<T> ResolveAll<T>()
+        {
+            return new List<T>() { _container.Resolve<T>() };
         }
     }
 }
