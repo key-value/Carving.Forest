@@ -7,10 +7,9 @@ using System.Reflection;
 using System.Text;
 using System.Web.Compilation;
 using Autofac;
-using Autofac.Builder;
-using Carving.Infrastructrue.Aop;
+using Autofac.Extras.DynamicProxy2;
 
-namespace Carving.Infrastructrue.Autofac
+namespace Carving.Infrastructrue.Aop.Autofac
 {
     public class ServiceLocator
     {
@@ -23,7 +22,6 @@ namespace Carving.Infrastructrue.Autofac
         private ServiceLocator()
         {
             var builder = new ContainerBuilder();
-
             var nameSpaces = new List<string>() { "Carving.Application", "Carving.Domain.Repository.EF", "Carving.Domain.Core", "Carving.Domain.Events.Handles" };
 
             foreach (var nameSpace in nameSpaces)
@@ -43,11 +41,12 @@ namespace Carving.Infrastructrue.Autofac
                         var classBody = customAttributeData.InterfaceName;
                         if (classBody != null)
                         {
-                            builder.RegisterTypes(interfaceTypes).As(classBody).PropertiesAutowired().InstancePerLifetimeScope();
+                            builder.RegisterTypes(injectionType).As(classBody).PropertiesAutowired().InstancePerLifetimeScope().EnableClassInterceptors().InterceptedBy(typeof(CallLogger));
                         }
                     }
                 }
             }
+            builder.Register(x => new CallLogger()).SingleInstance();
 
             //var assemblylist = BuildManager.GetReferencedAssemblies().Cast<Assembly>().ToList();AppDomain.CurrentDomain.GetAssemblies();
             _container = builder.Build();

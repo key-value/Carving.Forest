@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Carving.Domain.Core;
 using Carving.Domain.Core.Event;
-using Carving.Infrastructrue.Autofac;
+using Carving.Infrastructrue.Aop.Autofac;
 
 namespace Carving.Domain.Events
 {

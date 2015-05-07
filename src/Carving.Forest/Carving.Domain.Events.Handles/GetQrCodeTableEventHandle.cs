@@ -11,7 +11,7 @@ using Carving.Infrastructrue.Aop;
 namespace Carving.Domain.Events.Handles
 {
     [HandlesAsynchronously]
-    [Injection(typeof(GetQrCodeTableEvent))]
+    [Injection(typeof(IDomainEventHandler<GetQrCodeTableEvent>))]
     public class GetQrCodeTableEventHandle : IDomainEventHandler<GetQrCodeTableEvent>
     {
         public ITableRepository TableRepository { get; set; }

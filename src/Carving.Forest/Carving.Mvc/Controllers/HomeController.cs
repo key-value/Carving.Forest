@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Carving.Application;
-using Carving.Infrastructrue.Autofac;
+using Carving.Infrastructrue.Aop.Autofac;
 
 namespace Carving.Mvc.Controllers
 {

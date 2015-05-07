@@ -9,7 +9,6 @@ using Carving.Application;
 using Carving.Domain.Core.Repositories;
 using Carving.Domain.Repository.EF.Data;
 using Carving.Domain.Repository.EF.Repository;
-using Carving.Infrastructrue.Autofac;
 
 namespace Carving.Cmd
 {
