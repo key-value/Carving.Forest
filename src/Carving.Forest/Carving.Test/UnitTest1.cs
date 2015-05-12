@@ -16,9 +16,9 @@ namespace Carving.Test
         [Fact]
         public void TestMethod1()
         {
-            //var tableRepository = new Mock<ITableRepository>();
-            //tableRepository.Setup(x => x.FindAll()).Returns(new List<Table>());
-            //var a = tableRepository.Object.FindAll();
+            var tableRepository = new Mock<ITableRepository>();
+            tableRepository.Setup(x => x.FindAll()).Returns(new List<Table>());
+            var a = tableRepository.Object.FindAll();
 
             //var scanCodeServices = ServiceLocator.Instance.GetService<IScanCodeServices>();
             //scanCodeServices.ScanCode();
