@@ -1,6 +1,6 @@
 {
   "MRU": [
-    "Carving.Test",
+    "Carving.Mvc",
     "Carving.Cmd"
   ],
   "MultiProjectConfigurations": {},
